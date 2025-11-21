@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 充電BOX
+title: 🔋 充電BOX
 parent: 施設・設備
 nav_order: 2
 ---
