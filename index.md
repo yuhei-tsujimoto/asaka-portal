@@ -15,6 +15,9 @@ title: ホーム
   <a href="02_履修-成績/" class="portal-card">
     <h2>📚 履修・成績</h2>
     <p>履修登録、成績確認、進級要件など</p>
+    <ul>
+      <li><a href="02_履修-成績/01_履修の流れ.html">履修の流れ</a></li>
+    </ul>
   </a>
   <a href="03_学生生活/" class="portal-card">
     <h2>🎓 学生生活</h2>
