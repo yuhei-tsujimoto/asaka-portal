@@ -62,26 +62,57 @@ h1 {
     /* ほんのりグラデーション */
 }
 
-// H2: 左にアクセント + 背景色
+// H2: ボックス風スタイル（背景色＋左ボーダー）
 h2 {
-    font-size: 1.6rem;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    background-color: #f4f6f7;
-    border-left: 5px solid #7f8c8d;
-    border-radius: 0 4px 4px 0;
+    font-size: 1.7rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    background-color: #ecf0f1;
+    /* 薄いグレー */
+    border-left: 6px solid #34495e;
+    /* 濃いアクセント */
+    border-radius: 4px;
     color: #2c3e50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-// H3: 下線のみ（シンプルに）
+// H3: 下線スタイル（シンプルかつ明確に）
 h3 {
-    font-size: 1.3rem;
-    margin-top: 30px;
+    font-size: 1.4rem;
+    margin-top: 35px;
     margin-bottom: 15px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #dfe6e9;
-    color: #34495e;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #bdc3c7;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+// H4: 左マーカーのみ（小見出し用）
+h4 {
+    font-size: 1.15rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    border-left: 4px solid #95a5a6;
+    color: #444;
+    font-weight: 600;
+}
+
+// 引用（blockquote）を「ノート/コラム」風に
+blockquote {
+    background-color: #f8f9fa;
+    border-left: 5px solid #17a2b8;
+    /* インフォメーションカラー */
+    margin: 20px 0;
+    padding: 15px 20px;
+    color: #555;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.95rem;
+
+    p {
+        margin-bottom: 0;
+    }
 }
 
 // トップページのカードグリッド

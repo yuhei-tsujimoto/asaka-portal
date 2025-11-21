@@ -10,6 +10,8 @@ search_enabled: true
 search:
   # 日本語検索の有効化（lunr-languagesがテーマに含まれている場合）
   languages: ["ja"]
+  # 日本語の分かち書き用セパレータ（簡易的）
+  tokenizer_separator: /[\s\-/]+/
 
 # ナビゲーション設定
 nav_sort: case_insensitive
