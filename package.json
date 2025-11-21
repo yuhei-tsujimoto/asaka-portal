@@ -1,0 +1,17 @@
+{
+  "name": "asaka-portal",
+  "version": "1.0.0",
+  "description": "麻賀大学ポータルサイト",
+  "scripts": {
+    "build": "source .venv/bin/activate && zensical build",
+    "dev": "source .venv/bin/activate && zensical serve",
+    "serve": "source .venv/bin/activate && zensical serve"
+  },
+  "keywords": [
+    "documentation",
+    "portal",
+    "zensical"
+  ],
+  "author": "",
+  "license": "MIT"
+}
