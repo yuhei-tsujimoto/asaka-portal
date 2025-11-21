@@ -19,7 +19,7 @@ has_children: true
 &src=401066e2c30bc724e1cf9994ed869ded74625b22ae1760c3d466f2db36c320b9%40group.calendar.google.com&color=%23FFCC80
 &src=a133361e189cf0e5842e5a60f5e15a25ada66a9f5fd1a0d776c6cffc2c6c50f1%40group.calendar.google.com&color=%2380CBC4
 &ctz=Asia%2FTokyo"
-  style="border:0; width:100%; height:1600px;"
+  style="border:0; width:100%; height:1600px; border-radius: 8px;"
   frameborder="0"
   scrolling="no">
 </iframe>
