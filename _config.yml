@@ -7,9 +7,15 @@ remote_theme: just-the-docs/just-the-docs
 
 # 検索機能を有効化
 search_enabled: true
+search:
+  # 日本語検索の有効化（lunr-languagesがテーマに含まれている場合）
+  languages: ["ja"]
 
 # ナビゲーション設定
 nav_sort: case_insensitive
+
+# 見出しへのアンカーリンク
+heading_anchors: true
 
 plugins:
   - jekyll-feed
