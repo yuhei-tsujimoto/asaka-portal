@@ -1,0 +1,103 @@
+---
+layout: default
+title: ホーム
+---
+
+<!-- Hero Section -->
+<section class="hero student-hero">
+    <div class="hero-image-container">
+        <img src="assets/images/hero.png" alt="生命科学部イメージ" class="hero-image">
+        <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+        <h1 class="hero-title">Student Portal</h1>
+        <p class="hero-subtitle">東洋大学 生命科学部 学生ポータル</p>
+    </div>
+</section>
+
+<!-- Quick Access Grid -->
+<section class="section quick-access-section">
+    <div class="container">
+        <h2 class="section-title">Quick Access <span class="section-title-jp">学内システム</span></h2>
+        <div class="quick-access-grid">
+            <a href="https://g-sys.toyo.ac.jp/" target="_blank" class="qa-card">
+                <div class="qa-icon">🎓</div>
+                <div class="qa-name">ToyoNet-G</div>
+                <div class="qa-desc">履修登録・成績確認</div>
+            </a>
+            <a href="https://ace.toyo.ac.jp/" target="_blank" class="qa-card">
+                <div class="qa-icon">💻</div>
+                <div class="qa-name">ToyoNet-ACE</div>
+                <div class="qa-desc">授業資料・課題提出</div>
+            </a>
+            <a href="https://mail.google.com/" target="_blank" class="qa-card">
+                <div class="qa-icon">✉️</div>
+                <div class="qa-name">Gmail</div>
+                <div class="qa-desc">大学メール</div>
+            </a>
+            <a href="https://drive.google.com/" target="_blank" class="qa-card">
+                <div class="qa-icon">📂</div>
+                <div class="qa-name">Google Drive</div>
+                <div class="qa-desc">ファイル共有</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- News Section -->
+<section class="section news-section bg-light">
+    <div class="container">
+        <h2 class="section-title">NEWS <span class="section-title-jp">お知らせ</span></h2>
+        <div class="news-grid">
+            {% for post in site.news limit:3 %}
+            <article class="news-card">
+                <div class="news-date">{{ post.date | date: "%Y.%m.%d" }}</div>
+                <div class="news-category">{{ post.category | default: "お知らせ" }}</div>
+                <h3 class="news-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline">ニュース一覧を見る</a>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Grid -->
+<section class="section categories-section">
+    <div class="container">
+        <h2 class="section-title">CATEGORIES <span class="section-title-jp">学生生活・授業</span></h2>
+        <div class="categories-grid">
+            <div class="cat-card">
+                <h3>授業関連</h3>
+                <ul>
+                    {% for item in site.classes limit:5 %}
+                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                    <li><a href="#">シラバス検索</a></li>
+                    <li><a href="#">時間割表</a></li>
+                </ul>
+            </div>
+            <div class="cat-card">
+                <h3>学生生活</h3>
+                <ul>
+                    {% for item in site.life limit:5 %}
+                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                    <li><a href="#">奨学金情報</a></li>
+                    <li><a href="#">キャリア支援</a></li>
+                </ul>
+            </div>
+            <div class="cat-card">
+                <h3>各種申請</h3>
+                <ul>
+                    {% for item in site.applications limit:5 %}
+                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                    <li><a href="#">証明書発行</a></li>
+                    <li><a href="#">住所変更届</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
