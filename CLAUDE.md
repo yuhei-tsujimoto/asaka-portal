@@ -110,6 +110,15 @@ Deployment happens automatically on push to main. To trigger manually:
 
 ### Content Style Guidelines
 
+- **Page titles (`title` in frontmatter)**: Always prefix with a single relevant emoji at the beginning
+  - Example: `title: 💼 アルバイト` or `title: 🌍 英語単位認定`
+  - Choose emojis that visually represent the page content
+  - This appears in the navigation menu and page headers
+
+- **Menu category titles (`parent` in frontmatter)**: Do NOT include emojis
+  - Example: `parent: 学生生活` or `parent: 履修・成績`
+  - Keep category names clean and consistent across all categories
+
 - **Level 2 headings (`##`)**: Always prefix with a single relevant emoji at the beginning
   - Example: `## 📅 年間スケジュール` or `## 📝 申請方法`
   - Choose emojis that visually represent the section content
