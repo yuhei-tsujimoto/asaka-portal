@@ -134,6 +134,11 @@ Deployment happens automatically on push to main. To trigger manually:
 
 #### Additional Style Rules
 
+- **Language**: Always use Japanese for all content, documentation, and communication in this project
+    - All Markdown content in `docs/` should be in Japanese
+    - All documentation, comments, and commit messages should be in Japanese
+    - This is a Japanese-language site for Japanese university students
+
 - **Menu category titles (`parent` in frontmatter)**: Do NOT include emojis
     - Example: `parent: 学生生活` or `parent: 履修・成績`
     - Keep category names clean and consistent across all categories
