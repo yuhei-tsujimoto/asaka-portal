@@ -50,7 +50,7 @@ asaka-portal/
 ├── .venv/                      # Python仮想環境（gitには含まれない）  
 ├── zensical.toml              # Zensical設定ファイル  
 └── requirements.txt           # Python依存関係  
-```
+```  
 
 ### コンテンツ構成
 

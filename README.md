@@ -8,7 +8,7 @@
 
 ## 📚 コンテンツ
 
-詳細なコンテンツ構成は、[公開サイト](https://yuhei-tsujimoto.github.io/asaka-portal/)または`docs/`ディレクトリを参照してください。
+詳細なコンテンツ構成は、[公開サイト](https://yuhei-tsujimoto.github.io/asaka-portal/)または`docs/`ディレクトリを参照してください。  
 
 ## 🛠️ 技術スタック
 

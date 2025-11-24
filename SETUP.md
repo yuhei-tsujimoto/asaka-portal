@@ -64,7 +64,7 @@ asaka-portal/
 ├── zensical.toml           # Zensical設定ファイル  
 ├── requirements.txt        # Python依存関係  
 └── package.json            # npmスクリプト  
-```
+```  
 
 実際のコンテンツ構成は`docs/`ディレクトリと`zensical.toml`の`nav`セクションを参照してください。  
 
