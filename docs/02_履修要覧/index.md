@@ -1,11 +1,10 @@
 ---
 layout: default
-title: 📚 履修要覧
 nav_order: 2
 has_children: true
 ---
 
-# 履修要覧
+# 📚 履修要覧
 
 授業の履修や単位取得に関する重要な情報をまとめています。
 

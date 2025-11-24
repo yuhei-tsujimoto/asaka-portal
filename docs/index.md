@@ -1,10 +1,9 @@
----  
+---
 layout: default  
-title: HOME  
 nav_order: 0  
----  
+---
 
-# Asaka Campus Portal
+# HOME
 
 > **⚠️ このサイトは現在テスト中です。まだ正式にリリースされていません。**  
 

@@ -1,11 +1,10 @@
----  
+---
 layout: default  
-title: 🔋 充電BOX  
 parent: 施設・設備  
 nav_order: 2  
----  
+---
 
-# 充電BOX
+# 🔋 充電BOX
 
 スマートフォンやタブレットを安全に充電できる設備です。  
 
