@@ -278,3 +278,37 @@ pre, code {
   padding-left: 2.75rem;
   font-size: 0.8125rem;
 }
+
+/* ----------------------------------------------------------------------------
+ * テーブルスタイル - コンパクトで見やすい表
+ * ---------------------------------------------------------------------------- */
+
+/* テーブルを中央揃えにし、幅を内容に合わせる */
+.md-typeset table:not([class]) {
+  width: auto;
+  margin: 1.5em auto;
+  display: table;
+}
+
+/* セルのパディングを調整 */
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 0.5em 1.5em;
+  text-align: center;
+}
+
+/* ヘッダー行のスタイル */
+.md-typeset table:not([class]) th {
+  font-weight: 600;
+  border-bottom: 2px solid var(--md-default-border-color);
+}
+
+/* 行のボーダー */
+.md-typeset table:not([class]) tr {
+  border-bottom: 1px solid var(--md-default-border-color);
+}
+
+/* 最後の行のボーダーを削除 */
+.md-typeset table:not([class]) tr:last-child {
+  border-bottom: none;
+}

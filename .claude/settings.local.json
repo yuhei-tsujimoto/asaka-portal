@@ -8,7 +8,14 @@
       "Bash(git push:*)",
       "WebSearch",
       "WebFetch(domain:zensical.org)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip show:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(zensical build:*)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []
