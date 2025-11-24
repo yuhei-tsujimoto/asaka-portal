@@ -15,7 +15,9 @@
       "Bash(pip show:*)",
       "WebFetch(domain:github.com)",
       "Bash(zensical build:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(git bundle verify:*)",
+      "Bash(git bundle:*)"
     ],
     "deny": [],
     "ask": []
