@@ -1,10 +1,7 @@
 ---
 layout: default
-nav_order: 3
 has_children: true
 ---
-
-# 🎓 学生生活
 
 朝霞キャンパスでの学生生活に関する詳細な情報は、以下の公式サイトをご確認ください。
 

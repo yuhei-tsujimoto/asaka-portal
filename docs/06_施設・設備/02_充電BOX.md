@@ -1,7 +1,6 @@
 ---
 layout: default
 parent: 施設・設備
-nav_order: 2
 ---
 
 スマートフォンやタブレットを安全に充電できる設備です。

@@ -1,10 +1,7 @@
 ---
-layout: default  
-parent: 履修要覧  
-nav_order: 3  
+layout: default
+parent: 履修要覧
 ---
-
-# 💻 Web履修登録について
 
 ## 履修登録の基本
 

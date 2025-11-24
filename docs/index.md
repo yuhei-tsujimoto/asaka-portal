@@ -1,9 +1,6 @@
 ---
-layout: default  
-nav_order: 0  
+layout: default
 ---
-
-# HOME
 
 > **⚠️ このサイトは現在テスト中です。まだ正式にリリースされていません。**  
 
