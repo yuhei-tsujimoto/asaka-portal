@@ -39,7 +39,7 @@ jobs:
               content = f.read()
           content = re.sub(
               r'(^# サイトの正規 URL.*)',
-              r'\1\nsite_url = \"https://yuhei-tsujimoto.github.io/asaka-portal/\"',
+              r'\1\nsite_url = \"https://yuhei-tsujimoto.github.io/kaso-portal/\"',
               content,
               flags=re.MULTILINE
           )

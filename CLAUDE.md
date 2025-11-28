@@ -4,7 +4,7 @@
 
 ## プロジェクト概要
 
-仮想キャンパスポータルは、仮想大学仮想キャンパスの学生向けドキュメンテーションウェブサイトです。Zensical（静的サイトジェネレーター）で構築され、GitHub Pagesに自動デプロイされます。公開URL: <https://yuhei-tsujimoto.github.io/asaka-portal/>  
+仮想キャンパスポータルは、仮想大学仮想キャンパスの学生向けドキュメンテーションウェブサイトです。Zensical（静的サイトジェネレーター）で構築され、GitHub Pagesに自動デプロイされます。公開URL: <https://yuhei-tsujimoto.github.io/kaso-portal/>
 
 ## 基本コマンド
 
@@ -44,7 +44,7 @@ zensical build --clean
 ### プロジェクト構造
 
 ```markdown  
-asaka-portal/  
+kaso-portal/  
 ├── docs/                       # コンテンツソース（Markdownファイル）  
 ├── site/                       # ビルド出力（自動生成、gitには含まれない）  
 ├── .venv/                      # Python仮想環境（gitには含まれない）  
@@ -131,4 +131,4 @@ asaka-portal/
 
 ## デプロイURL
 
-本番サイト: <https://yuhei-tsujimoto.github.io/asaka-portal/>  
+本番サイト: <https://yuhei-tsujimoto.github.io/kaso-portal/>  

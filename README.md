@@ -1,14 +1,14 @@
-# Asaka Campus Portal
+# Kaso Campus Portal
 
 仮想大学仮想キャンパスポータル - 学生生活に必要な情報をまとめたドキュメントサイトです。  
 
 ## 🌐 サイト
 
-**<https://yuhei-tsujimoto.github.io/asaka-portal/>**  
+**<https://yuhei-tsujimoto.github.io/kaso-portal/>**  
 
 ## 📚 コンテンツ
 
-詳細なコンテンツ構成は、[公開サイト](https://yuhei-tsujimoto.github.io/asaka-portal/)または`docs/`ディレクトリを参照してください。  
+詳細なコンテンツ構成は、[公開サイト](https://yuhei-tsujimoto.github.io/kaso-portal/)または`docs/`ディレクトリを参照してください。  
 
 ## 🛠️ 技術スタック
 

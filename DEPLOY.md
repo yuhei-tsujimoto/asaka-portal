@@ -22,7 +22,7 @@
 
 デプロイが完了すると、以下のURLでサイトにアクセスできます：  
 
-**<https://yuhei-tsujimoto.github.io/asaka-portal/>**  
+**<https://yuhei-tsujimoto.github.io/kaso-portal/>**  
 
 ## デプロイの確認
 
