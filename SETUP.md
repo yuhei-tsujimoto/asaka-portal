@@ -57,7 +57,7 @@ npm run build
 ## プロジェクト構造
 
 ```  
-asaka-portal/  
+kaso-portal/  
 ├── docs/                    # ドキュメントソース（Markdownファイル）  
 ├── site/                    # ビルド出力（生成される）  
 ├── .venv/                   # Python仮想環境  
